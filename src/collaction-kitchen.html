@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', { "title": "Композиция кухонь" })
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Композиции</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Композиции для кухни</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <span class="breadcrumbs-item__text">Прямые кухни</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="content__slider slider-content slider-content-two swiper-container">
+                        <div class="slider-content__wrap slider-wrap swiper-wrapper">
+                            <div class="slider-wrap__slide slider-slide swiper-slide"
+                                style="background-image: url('/img/banner/1.jpg');"></div>
+                            <div class="slider-wrap__slide slider-slide swiper-slide"
+                                style="background-image: url('/img/banner/2.png');"></div>
+                            <div class="slider-wrap__slide slider-slide swiper-slide"
+                                style="background-image: url('/img/banner/2.png');"></div>
+                        </div>
+                        <div class="slider-content__prev swiper-button-prev"></div>
+                        <div class="slider-content__next swiper-button-next"></div>
+                    </div>
+                    <div class="content__colors colors-content swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="colors-content__item colors-item swiper-slide">
+                                <div class="colors-item__img">
+                                    <img src="/img/3.svg" alt="BOCA Табак Белый">
+                                </div>
+                                <div class="colors-item__inner colors-inner">
+                                    <h3 class="colors-inner__title">BOCA Табак</h3>
+                                </div>
+                            </div>
+                            <div class="colors-content__item colors-item swiper-slide">
+                                <div class="colors-item__img">
+                                    <img src="/img/4.svg" alt="BOCA Дуб Гладстоун">
+                                </div>
+                                <div class="colors-item__inner colors-inner">
+                                    <h3 class="colors-inner__title">BOCA Дуб Гладстоун</h3>
+                                </div>
+                            </div>
+                            <div class="colors-content__item colors-item swiper-slide">
+                                <div class="colors-item__img">
+                                    <img src="/img/4.svg" alt="BOCA Кашемир ">
+                                </div>
+                                <div class="colors-item__inner colors-inner">
+                                    <h3 class="colors-inner__title">BOCA Кашемир </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__desc desc-content">
+                        <div class="desc-content__left desc-left">
+                            <h2 class="desc-left__title">Коллекция кухонь BOCA</h2>
+                            <p class="desc-left__text">
+                                Спальня — это место, где люди проводят наибольшее количество времени. В ней можно и
+                                нужно создавать условия, при которых организм настроится на отдых и получит необходимый
+                                заряд бодрости на следующий день. Удобная кровать, приятная глазу палитра, качественные
+                                отделочные материалы и изящные элементы декора, создающие гармонию и умиротворение — все
+                                это является обязательными атрибутами при планировании места для сна. Зачастую именно в
+                                комнате отдыха необходимо также разместить гардероб и обустроить рабочий уголок.
+                                Создать идеальный интерьер комнаты отдыха поможет ряд приёмов, которые совсем несложно
+                                воплотить в реальность.
+                            </p>
+                            <div class="desc-left__inner desc-inner">
+                                <button type="button" class="desc-inner__btn desc-order">Заказать проект</button>
+                                <button type="button" class="desc-inner__btn desc-registration">Заказать проект</button>
+                                <button type="button" class="desc-inner__btn desc-measurer">Заказать замерщика</button>
+                            </div>
+                        </div>
+                        <div class="desc-content__right desc-right">
+                            <div class="desc-right__img">
+                                <img src="/img/designer2.svg" alt="Дизайнер">
+                            </div>
+                            <span class="desc-right__post">Дизайнер</span>
+                            <h5 class="desc-right__name">Дарья Марозова</h5>
+                        </div>
+                    </div>
+
+                    <div class="content__advantages advantages-content">
+                        <h2 class="advantages-content__title title">Дизайн и преимущества</h2>
+                        <div class="advantages-content__row advantages-row">
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/1.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/2.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Разнообразный и богатый опыт сложившаяся структура организации играет
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/3.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Настолько очевидна, что новая модель организационной деятельности требуют
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/4.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__matherials matherials-content">
+                    <div class="container">
+                        <h2 class="matherials-content__title title">Материалы</h2>
+                        <div class="matherials-content__controls matherials-controls">
+                            <button type="button" class="matherials-controls__item matherials-active"
+                                data-tab="matherial-tab-1">
+                                Основные текстуры
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-2">
+                                Дополнительные текстуры
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-3">
+                                Корпус
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-4">
+                                Ручки
+                            </button>
+                        </div>
+                        <div class="matherials-content__inner matherials-inner">
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-1 panel-active">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/3.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/4.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-2">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/3.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-3">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-4">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content__row row-content">
+                    <div class="container">
+                        <div class="row-content__header row-header">
+                            <h2 class="row-header__title title">Композиции кухонь BOCA</h2>
+                            <a href="#" class="row-header__link">Смотреть все композиции</a>
+                        </div>
+                        <div class="row-content__slider row-slider swiper-slider">
+                            <div class="row-slider__inner row-inner swiper-wrapper">
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/2.jpg" alt="Композиции кухонь BOCA">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/3.jpg" alt="Композиции кухонь BOCA">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиции кухонь BOCA">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/5.jpg" alt="Композиции кухонь BOCA">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиции кухонь BOCA">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиции кухонь BOCA">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/5.jpg" alt="Композиции кухонь BOCA">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиции кухонь BOCA</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row-slider__pagination swiper-pagination"></div>
+                        </div>
+                        <div class="row-slider__prev swiper-button-prev"></div>
+                        <div class="row-slider__next swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="content__order order-content">
+                    <div class="container">
+                        <form id="order-project" class="order-content__form form-order">
+                            <h2 class="form-order__title">Заказать проект</h2>
+                            <div class="form-order__inner form-inner">
+                                <input type="text" id="order-name" name="" class="form-inner__field" placeholder="Имя"
+                                    required>
+                                <input type="email" id="order-email" name="" class="form-inner__field"
+                                    placeholder="E-mail" required>
+                                <input type="text" id="order-phone" name="" class="form-inner__field"
+                                    placeholder="Телефон" required>
+                                <input type="text" id="order-city" name="" class="form-inner__field" placeholder="Город"
+                                    required>
+                            </div>
+                            <div class="form-order__inner form-inner">
+                                <label class="form-inner__file form-file">
+                                    <input type="file" name="order-file" id="order-file" class="form-file__field">
+                                    <span class="form-file__text">Прикрепить файл</span>
+                                </label>
+                                <button type="button" class="form-inner__btn">Добавить комментарий</button>
+                            </div>
+                            <div class="form-order__message form-message">
+                                <textarea name="order-message" id="order-message" class="form-message__textarea"
+                                    placeholder="Комментарий">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="form-order__btn">Отправить</button>
+
+                            <div class="form-order__bg" style="background-image: url('/img/bg.svg');"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    @@include('html/popup.html', {})
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/dinamic-adaptive.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/maskedInput.js"></script> 
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>

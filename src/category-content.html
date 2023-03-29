@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', { "title": "Товары для сна" })
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Каталог</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Товары для сна</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <span class="breadcrumbs-item__text">Матрасы</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <h1 class="content__title title-content">
+                        <span>Матрасы</span>
+                    </h1>
+                    <div class="objects-content__sort objects-sort">
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-room" name="sort-room"
+                                    value="Сортировка">
+                                <span class="sort-title__text">По популярности</span>
+                                <span class="sort-title__clear" data-default="По популярности">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">По популярности </li>
+                                <li class="sort-list__item">По популярности 2</li>
+                                <li class="sort-list__item">По популярности 3</li>
+                                <li class="sort-list__item">По популярности 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-city" name="sort-city"
+                                    value="Коллекция">
+                                <span class="sort-title__text">Размер</span>
+                                <span class="sort-title__clear" data-default="Размер">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Размер </li>
+                                <li class="sort-list__item">Размер 2</li>
+                                <li class="sort-list__item">Размер 3</li>
+                                <li class="sort-list__item">Размер 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-city" name="sort-city"
+                                    value="Коллекция">
+                                <span class="sort-title__text">Жёсткость</span>
+                                <span class="sort-title__clear" data-default="Жёсткость">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Жёсткость </li>
+                                <li class="sort-list__item">Жёсткость 2</li>
+                                <li class="sort-list__item">Жёсткость 3</li>
+                                <li class="sort-list__item">Жёсткость 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-city" name="sort-city"
+                                    value="Коллекция">
+                                <span class="sort-title__text">Пружинный блок</span>
+                                <span class="sort-title__clear" data-default="Пружинный блок">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Пружинный блок </li>
+                                <li class="sort-list__item">Пружинный блок 2</li>
+                                <li class="sort-list__item">Пружинный блок 3</li>
+                                <li class="sort-list__item">Пружинный блок 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-price" name="sort-price"
+                                    value="Цена">
+                                <span class="sort-title__text">Цена</span>
+                                <span class="sort-title__clear" data-default="Цена">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Цена</li>
+                                <li class="sort-list__item">Цена 2</li>
+                                <li class="sort-list__item">Цена 3</li>
+                                <li class="sort-list__item">Цена 4</li>
+                            </div>
+                        </div>
+                        <button type="button" class="objects-sort__btn">Все фильры</button>
+                    </div>
+                    <div class="category">
+
+                        <div class="category__wrap category-wrap">
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist added">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/28.png" alt="Матрас BIOLUXE">
+                                </a>
+                                <a href="#" class="category-item__title">Матрас BIOLUXE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">3 566 ₽ </span>
+                                    <span class="category-price__old">3 560 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/29.png" alt="Матрас BIOMIX">
+                                </a>
+                                <a href="#" class="category-item__title">Матрас BIOMIX</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">17 214 ₽ </span>
+                                    <span class="category-price__old">24 560 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/30.png" alt="Матрас FAVORITE">
+                                </a>
+
+                                <a href="#" class="category-item__title">Матрас FAVORITE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">5 235 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/31.png" alt=" Матрас CAPRICE">
+                                </a>
+                                <a href="#" class="category-item__title"> Матрас CAPRICE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">4 674 ₽ </span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/31.png" alt=" Матрас CAPRICE">
+                                </a>
+                                <a href="#" class="category-item__title"> Матрас CAPRICE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">4 674 ₽ </span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/30.png" alt="Матрас FAVORITE">
+                                </a>
+
+                                <a href="#" class="category-item__title">Матрас FAVORITE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">5 235 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/29.png" alt="Матрас BIOMIX">
+                                </a>
+                                <a href="#" class="category-item__title">Матрас BIOMIX</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">17 214 ₽ </span>
+                                    <span class="category-price__old">24 560 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div>
+                            <div class="category-wrap__item category-item">
+                                <a href="#" class="category-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46317 11.1683L6.44681 11.1592L6.40034 11.1332C6.36345 11.1123 6.31481 11.0845 6.25608 11.0501C6.13896 10.9815 5.97967 10.8856 5.79186 10.766C5.42303 10.5312 4.91197 10.1843 4.38323 9.75311C3.87342 9.33734 3.23657 8.75438 2.69822 8.02665C2.19803 7.35049 1.48242 6.14596 1.48242 4.55673C1.48242 2.5924 2.96719 1 4.79875 1C6.30685 1 7.57984 2.07962 7.98242 3.55754C8.38501 2.07962 9.658 1 11.1661 1C12.9977 1 14.4824 2.5924 14.4824 4.55673C14.4824 6.14596 13.7668 7.35049 13.2666 8.02665C12.7283 8.75438 12.0914 9.33734 11.5816 9.75311C11.0529 10.1843 10.5418 10.5312 10.173 10.766C9.98518 10.8856 9.82588 10.9815 9.70877 11.0501C9.65003 11.0845 9.60139 11.1123 9.56451 11.1332L9.51803 11.1592L9.50168 11.1683L9.49009 11.1747L7.98242 12L6.47475 11.1747L6.46317 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="category-item__img">
+                                    <img src="/img/category/28.png" alt="Матрас BIOLUXE">
+                                </a>
+                                <a href="#" class="category-item__title">Матрас BIOLUXE</a>
+                                <div class="category-item__inner category-inner">
+                                    <span class="category-inner__text">160х200 см</span>
+                                    <span class="category-inner__text">Средняя жёсткость</span>
+                                </div>
+                                <div class="category-item__price category-price">
+                                    <span class="category-price__new">3 566 ₽ </span>
+                                    <span class="category-price__old">3 560 ₽</span>
+                                </div>
+                                <span class="category-item__text">Другие размеры</span>
+                                <div class="category-item__sizes category-sizes">
+                                    <div class="category-sizes__item size-selected">160х200</div>
+                                    <div class="category-sizes__item">180х200</div>
+                                    <div class="category-sizes__item">200х200</div>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <div class="collactions__count count-collactions">
+                            Показано <span class="count-collactions__current">12</span> из <span
+                                class="count-collactions__all">155</span>
+                        </div>
+                        
+                        <button type="button" class="collactions__loadmore">Показать больше</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    @@include('html/popup.html', {})
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/dinamic-adaptive.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/maskedInput.js"></script> 
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>

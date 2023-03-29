@@ -1,0 +1,247 @@
+.collactions {
+    padding-top: 32px;
+    padding-bottom: 80px;
+    border-top: 1px solid #EBEBEB;
+    // .collactions__box
+
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -32px -16px -20px;
+    }
+
+    // .collactions__count
+
+    &__count {
+        display: flex;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1F1F1F;
+        margin-top: 40px;
+        margin-bottom: 8px;
+    }
+
+    // .collactions__loadmore
+
+    &__loadmore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 38px;
+        width: 383px;
+        height: 48px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #1F1F1F;
+        border-radius: 4px;
+        transition: .35s ease;
+        margin: 0 auto;
+
+        &:hover {
+            background: #676767;
+        }
+    }
+
+
+}
+
+.count-collactions {
+
+    // .count-collactions__current
+
+    &__current {
+        margin: 0 5px;
+    }
+
+    // .count-collactions__all
+
+    &__all {
+        margin: 0 5px;
+    }
+}
+
+
+.collactions-box {
+
+    // .collactions-box__item
+
+    &__item {
+        position: relative;
+        width: calc((100% / 4) - 32px);
+        margin: 26px 16px;
+
+        &:hover {
+            .collactions-item__img {
+                opacity: .6;
+            }
+        }
+    }
+}
+
+.collactions-item {
+
+    // .collactions-item__img
+
+    &__img {
+        width: 100%;
+        height: 200px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        transition: .35s ease;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50%;
+        }
+    }
+
+    // .collactions-item__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #1F1F1F;
+        margin-bottom: 4px;
+    }
+
+    // .collactions-item__text
+
+    &__text {
+        display: inline-flex;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #1F1F1F;
+        margin-bottom: 4px;
+    }
+
+    // .collactions-item__price
+
+    &__price {
+        display: flex;
+        align-items: center;
+    }
+
+    .collactions-item__discount {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 8px;
+        width: 48.48px;
+        height: 25px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        background: #C42021;
+        border-radius: 2px;
+        z-index: 5;
+    }
+}
+
+.collactions-price {
+
+    // .collactions-price__new
+
+    &__new {
+        display: inline-flex;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #1F1F1F;
+        margin-right: 10px;
+    }
+
+    // .collactions-price__old
+
+    &__old {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: line-through;
+        color: #1F1F1F;
+        opacity: 0.5;
+    }
+}
+
+
+.content {
+
+    // .content__composition
+
+    &__composition {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+        margin-bottom: 20px;
+    }
+}
+
+.content-composition {
+
+    // .content-composition__type
+
+    &__type {
+        width: calc((100% / 4) - 32px);
+        margin: 0 16px 52px;
+        transition: .35s ease;
+
+        &:hover {
+            .composition-type__title {
+                color: #1f1f1f8a;
+            }
+
+            .composition-type__img {
+                opacity: .6;
+            }
+        }
+    }
+}
+
+.composition-type {
+
+    // .composition-type__img
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 150.5px;
+        border-radius: 4px;
+        margin-bottom: 24px;
+        overflow: hidden;
+        transition: .35s ease;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50%;
+        }
+    }
+
+    // .composition-type__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+        transition: .35s ease;
+    }
+}

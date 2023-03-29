@@ -1,0 +1,550 @@
+<div class="modal-city">
+    <div class="modal-city__body modal-body">
+        <span class="modal-body__close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 10.6669L16.6669 6L18 7.33312L13.3331 12L18 16.6669L16.6669 18L12 13.3331L7.33312 18L6 16.6669L10.6669 12L6 7.33312L7.33312 6L12 10.6669Z" fill="#1F1F1F"/>
+            </svg> 
+        </span>
+        <h2 class="modal-body__title">Выберите ваш город</h2>
+        <p class="modal-body__subtitle">
+            От выбранного города зависят цены, акционные предложения, наличие товара и способы доставки.
+        </p>
+        <div class="modal-body__tab modal-tab">
+            <div class="modal-tab__item active-modal-tab" data-modal-tab="city-tab_1">Москва</div>
+            <div class="modal-tab__item" data-modal-tab="city-tab_2">Молдавия</div>
+            <div class="modal-tab__item" data-modal-tab="city-tab_3">Бразилия</div>
+        </div>
+        <div class="modal-body__search modal-search">
+            <form id="modal-search" class="modal-search__inner search-wrap">
+                <input type="text" id="modal-search-field" name="modal-search-field" class="search-wrap__field" placeholder="Ваш город">
+                <button type="submit" class="search-wrap__btn btn-show">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.0213 11.078L14.8767 13.9326L13.9333 14.876L11.0787 12.0206C10.0165 12.8721 8.69532 13.3352 7.33398 13.3333C4.02198 13.3333 1.33398 10.6453 1.33398 7.33331C1.33398 4.02131 4.02198 1.33331 7.33398 1.33331C10.646 1.33331 13.334 4.02131 13.334 7.33331C13.3359 8.69465 12.8728 10.0158 12.0213 11.078ZM10.684 10.5833C11.5301 9.71324 12.0026 8.54693 12.0007 7.33331C12.0007 4.75465 9.91198 2.66665 7.33398 2.66665C4.75532 2.66665 2.66732 4.75465 2.66732 7.33331C2.66732 9.91131 4.75532 12 7.33398 12C8.5476 12.0019 9.71391 11.5294 10.584 10.6833L10.684 10.5833Z" fill="#7F857E"></path>
+                    </svg>
+                </button>
+                <button type="button" class="search-wrap__clear">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 6.66688L12.6669 2L14 3.33312L9.33312 8L14 12.6669L12.6669 14L8 9.33312L3.33312 14L2 12.6669L6.66688 8L2 3.33312L3.33312 2L8 6.66688Z" fill="#828282"/>
+                    </svg> 
+                </button> 
+            </form>
+        </div> 
+        <div class="modal-body__panel modal-panel panel-show">
+            <div class="modal-panel__item panel-item city-tab_1 modal-panel-active">
+                <ul class="panel-item__list modal-list">
+                    <li class="modal-list__item city-selected">Москва</li>
+                    <li class="modal-list__item">Омск</li>
+                    <li class="modal-list__item">Воронеж</li>
+                    <li class="modal-list__item">Оренбург</li>
+                    <li class="modal-list__item">Екатеринбург</li>
+                    <li class="modal-list__item">Пермь</li>
+                    <li class="modal-list__item">Ижевск</li>
+                    <li class="modal-list__item">Ростов-на-Дону</li>
+                    <li class="modal-list__item">Казань</li>
+                    <li class="modal-list__item">Рязань</li>
+                    <li class="modal-list__item">Липецк</li>
+                    <li class="modal-list__item">Самара</li>
+                    <li class="modal-list__item">Набережные Челны</li>
+                    <li class="modal-list__item">Тюмень</li>
+                    <li class="modal-list__item">Нижний Новогород</li>
+                    <li class="modal-list__item">Уфа</li>
+                    <li class="modal-list__item">Новосибирск</li>
+                </ul>
+            </div> 
+            <div class="modal-panel__item panel-item city-tab_2">
+                <ul class="panel-item__list modal-list">
+                    <li class="modal-list__item city-selected">Москва</li>
+                    <li class="modal-list__item">Омск</li>
+                    <li class="modal-list__item">Воронеж</li>
+                    <li class="modal-list__item">Оренбург</li>
+                    <li class="modal-list__item">Екатеринбург</li>
+                    <li class="modal-list__item">Пермь</li>
+                    <li class="modal-list__item">Ижевск</li>
+                    <li class="modal-list__item">Ростов-на-Дону</li>
+                    <li class="modal-list__item">Казань</li>
+                    <li class="modal-list__item">Рязань</li>
+                    <li class="modal-list__item">Липецк</li> 
+                </ul>
+            </div> 
+            <div class="modal-panel__item panel-item city-tab_3">
+                <ul class="panel-item__list modal-list">
+                    <li class="modal-list__item city-selected">Москва</li>
+                    <li class="modal-list__item">Омск</li>
+                    <li class="modal-list__item">Воронеж</li>
+                    <li class="modal-list__item">Оренбург</li>
+                    <li class="modal-list__item">Екатеринбург</li> 
+                </ul>
+            </div> 
+        </div>
+        <div class="modal-body__result modal-result ">
+            <ul class="modal-result__list result-list">
+                <li class="result-list__item">
+                    Котовск, Тамбовская область
+                </li>
+                <li class="result-list__item">
+                    Когалым, Ханты-Мансийский Автономный округ
+                </li>
+                <li class="result-list__item">
+                    Ковров, Владимирская область
+                </li>  
+            </ul>
+        </div> 
+
+    </div> 
+</div>
+
+<div class="quick-view">
+    <div class="quick-view__body quick-body">
+        <div class="quick-body__box  quick-box">
+            <div class="quick-box__left quick-left swiper-container"> 
+                <div class="quick-left__discount">-50%</div>
+                <div class="quick-left__wrapper quick-wrapper swiper-wrapper">
+                    <div class="quick-wrapper__slide quick-slide swiper-slide">
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="quick-wrapper__slide quick-slide swiper-slide"> 
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="quick-wrapper__slide quick-slide swiper-slide"> 
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="quick-wrapper__slide quick-slide swiper-slide"> 
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="quick-wrapper__slide quick-slide swiper-slide"> 
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                    <div class="quick-wrapper__slide quick-slide swiper-slide"> 
+                        <div class="quick-slide__img">
+                            <img src="/img/product/23.png" alt="">
+                        </div>
+                    </div>
+                </div> 
+                <div class="quick-left__prev swiper-button-prev"></div>
+                <div class="quick-left__next swiper-button-next"></div> 
+                <div class="quick-left__pagination swiper-pagination"></div>
+            </div>
+            <div class="quick-box__right quick-right">
+                <span class="quick-right__text">Коллекция CORSICA</span>
+                <h2 class="quick-right__title">Кровать CORSICA 160х200</h2>
+                <div class="product-right__inner right-inner">
+                    <div class="right-inner__reviews right-reviews">
+                        <span class="right-reviews__star">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.11765 0L8.09537 3.33024L11.9359 4.1459L9.31767 7.01976L9.71351 10.8541L6.11765 9.3L2.52178 10.8541L2.91762 7.01976L0.299419 4.1459L4.13992 3.33024L6.11765 0Z"
+                                    fill="#1F1F1F" />
+                            </svg>
+                        </span>
+                        <span class="right-reviews__star">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.11765 0L8.09537 3.33024L11.9359 4.1459L9.31767 7.01976L9.71351 10.8541L6.11765 9.3L2.52178 10.8541L2.91762 7.01976L0.299419 4.1459L4.13992 3.33024L6.11765 0Z"
+                                    fill="#1F1F1F" />
+                            </svg>
+                        </span>
+                        <span class="right-reviews__star">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.11765 0L8.09537 3.33024L11.9359 4.1459L9.31767 7.01976L9.71351 10.8541L6.11765 9.3L2.52178 10.8541L2.91762 7.01976L0.299419 4.1459L4.13992 3.33024L6.11765 0Z"
+                                    fill="#1F1F1F" />
+                            </svg>
+                        </span>
+                        <span class="right-reviews__star">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.11765 0L8.09537 3.33024L11.9359 4.1459L9.31767 7.01976L9.71351 10.8541L6.11765 9.3L2.52178 10.8541L2.91762 7.01976L0.299419 4.1459L4.13992 3.33024L6.11765 0Z"
+                                    fill="#1F1F1F" />
+                            </svg>
+                        </span>
+                        <span class="right-reviews__star">
+                            <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.11765 0L8.09537 3.33024L11.9359 4.1459L9.31767 7.01976L9.71351 10.8541L6.11765 9.3L2.52178 10.8541L2.91762 7.01976L0.299419 4.1459L4.13992 3.33024L6.11765 0Z"
+                                    fill="#D2D3D1" />
+                            </svg>
+                        </span>
+                        <div class="right-reviews__count">(12)</div>
+                    </div>
+                    <a href="#" class="right-inner__cart">
+                        <svg width="12" height="11" viewBox="0 0 12 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.02363 1.83911C3.1541 0.720298 4.98694 0.720298 6.11741 1.83911L6.17578 1.89688L6.23416 1.83911C7.36462 0.720298 9.19747 0.720298 10.3279 1.83911C11.4584 2.95791 11.4584 4.77186 10.3279 5.89067L6.17578 10L2.02363 5.89067C0.893165 4.77186 0.893165 2.95791 2.02363 1.83911Z"
+                                stroke="#4A4A4A" stroke-width="1.1" />
+                        </svg>
+                    </a>
+                    <a href="#" class="right-inner__compare">
+                        <svg width="11" height="11" viewBox="0 0 11 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.175781 5.78947H1.28689V11H0.175781V5.78947ZM9.06467 3.47368H10.1758V11H9.06467V3.47368ZM4.62023 0H5.73134V11H4.62023V0Z"
+                                fill="#4A4A4A" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="quick-right__inner quick-inner">
+                    <div class="quick-inner__left inner-left">
+                        <span class="inner-left__price">105 895 ₽</span>
+                        <span class="inner-left__text">Цена для Петропавловска-Камчатского</span>
+                    </div>
+                    <div class="quick-inner__right inner-right">
+                        <span class="inner-right__price">105 895 ₽</span>
+                        <div class="inner-right__text right-text">
+                            <span class="right-text__top"> Выгода 57 750 ₽</span>
+                            <span class="right-text__date">до 01.09</span> 
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-right__col quick-col">
+                    <div class="quick-col__item quick-item">
+                        <span class="quick-item__top">Размер спального места</span>
+                        <span class="quick-item__down">160х200 см</span>
+                    </div> 
+                    <div class="quick-col__item quick-item">
+                        <span class="quick-item__top">Подъемный механизм</span>
+                        <span class="quick-item__down">С подъемным механизмом</span>
+                    </div> 
+                    <div class="quick-col__item quick-item">
+                        <span class="quick-item__top">Тип спинки</span>
+                        <span class="quick-item__down">Мягкий чехол</span>
+                    </div> 
+                </div> 
+                <a href="#" class="quick-right__btn">В корзину</a>
+            </div>
+        </div>
+        <div class="quick-body__row quick-row">
+            <a href="" class="quick-row__link">
+                Смортеть подробную информацию о товаре
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="order-modal order-salon-modal">
+    <form id="order-salon" class="order-modal__body order-body">
+        <span class="order-body__close close-order-salon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 10.6669L16.6669 6L18 7.33312L13.3331 12L18 16.6669L16.6669 18L12 13.3331L7.33312 18L6 16.6669L10.6669 12L6 7.33312L7.33312 6L12 10.6669Z" fill="#1F1F1F"/>
+            </svg> 
+        </span>
+        <h2 class="order-body__title">Запись в салон</h2>
+        <div class="order-body__description">
+            Укажите свои данные и дату встречи с нашим дизайнером. В самое ближайшее время мы свяжемся и согласуем время встречи.
+        </div>
+        <div class="order-body__text">*Обязательныек заполнению поля</div>
+        <div class="order-body__inner order-inner">
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Уточните город*</div>
+                <div class="order-row__select order-select"> 
+                    <div class="order-select__header order-header">
+                        <input type="text" class="order-header__input" id="order-city" name="order-city" value="" required>
+                        <span class="order-header__title title-text">Санкт-Петербург</span> 
+                    </div>
+                    <div class="order-select__body select-body">
+                        <div class="select-body__option">Москва</div>
+                        <div class="select-body__option option-selected">Санкт-Петербург</div>
+                        <div class="select-body__option">Екатеринбург</div>
+                        <div class="select-body__option">Нижний Новгород</div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Выбирите салон*</div>
+                <div class="order-row__select order-select"> 
+                    <div class="order-select__header order-header">
+                        <input type="text" class="order-header__input" id="order-salon" name="order-salon" value="" required>
+                        <span class="order-header__title title-text">Всего 3 салона</span> 
+                    </div>
+                    <div class="order-select__body select-body">
+                        <div class="select-body__option">ТРЦ «МЕБЕЛЬ WOOD», ул. Щербакова, д. 4</div>
+                        <div class="select-body__option option-selected">ТРЦ «ГРАНД КАНЬОН», ул. Щербакова, д. 4</div>
+                        <div class="select-body__option">ТРЦ «Мебельный континент», ул. Щербакова, д. 4</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Дата встречи</div>
+                <div class="order-row__date order-date">
+                    <div class="order-date__header order-header">
+                        <input type="text" class="order-header__input" id="order-date" name="order-date" value="" required>
+                        <span class="order-header__date title-date">
+                            30 июля 2022
+                        </span> 
+                    </div> 
+                    <div class="order-date__body order-body">
+                        <div id="calendar-one" class="calendar-wrapper">
+                            <div class="calendar-wrapper__row calendar-row">
+                                <div class="calendar-row__month">Август</div>
+                                <div class="calendar-row__controls">
+                                    <button id="btnPrev" type="button"></button>
+                                    <button id="btnNext" type="button"></button>
+                                </div>
+                            </div>
+                            <div id="divCal"></div>
+                            <div class="calendar-wrapper__controls calendar-controls">
+                                <span class="calendar-controls__clear">Очистить</span>
+                                <div class="calendar-controls__inner calendar-inner">
+                                    <span class="calendar-inner__next">Завтра</span>
+                                    <span class="calendar-inner__aftertomorrow">Послезавтра</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Время</div>
+                <div class="order-row__select order-select">
+                    <div class="order-select__header order-header">
+                        <input type="text" class="order-header__input" id="order-time" name="order-time" value="" required>
+                        <span class="order-header__title title-text">Выберите время</span> 
+                    </div> 
+                    <div class="order-select__body select-body">
+                        <div class="select-body__option option-time">12:00-13:00</div>
+                        <div class="select-body__option option-time option-selected">13:00-14:00</div>
+                        <div class="select-body__option option-time">16:00-17:00</div>
+                        <div class="select-body__option option-time">19:00-20:00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Цель визита</div>
+                <div class="order-row__wrap order-wrap">
+                    <button type="button" class="order-wrap__item order-item-active">Консультация</button>
+                    <button type="button" class="order-wrap__item">Подготовка проекта</button>
+                    <button type="button" class="order-wrap__item">Заключение договора</button>
+                    <button type="button" class="order-wrap__item">Оплата</button>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Ваше имя</div>
+                <div class="order-row__field order-field">
+                    <input type="text" id="order-name" name="order-name" class="order-field__input" placeholder="Представьтесь, пожалуйста">
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Телефон</div>
+                <div class="order-row__field order-field">
+                    <input type="text" id="order-phone" name="order-phone" class="order-field__input" placeholder="Номер телефона">
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">E-mail</div>
+                <div class="order-row__field order-field">
+                    <input type="email" id="order-email" name="order-email" class="order-field__input" placeholder="Укажите E-mail">
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="order-body__btn order-btn">
+            Записаться в салон: 
+            <span class="order-btn__date">30 июля</span>, 
+            <span class="order-btn__time">12:00-13:00</span>        
+        </button>
+        <div class="order-body__info">
+            Отправляя форму, Вы принимаете пользовательское соглашение
+        </div>
+    </form>
+</div>
+<div class="order-modal order-size-modal">
+    <form id="order-size" class="order-modal__body order-body">
+        <span class="order-body__close close-order-size">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 10.6669L16.6669 6L18 7.33312L13.3331 12L18 16.6669L16.6669 18L12 13.3331L7.33312 18L6 16.6669L10.6669 12L6 7.33312L7.33312 6L12 10.6669Z" fill="#1F1F1F"/>
+            </svg> 
+        </span>
+        <h2 class="order-body__title">Заказать замер</h2>
+        <div class="order-body__description">
+            Замер вашего помещения – важнейший подготовительный этап проекта. Доверьте его нашему специалисту. Условия замера уточняйте в салоне.
+        </div>
+        <div class="order-body__text">*Обязательныек заполнению поля</div>
+        <div class="order-body__inner order-inner">
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Уточните город*</div>
+                <div class="order-row__select order-select"> 
+                    <div class="order-select__header order-header">
+                        <input type="text" class="order-header__input" id="order-size-city" name="order-size-city" value="" required>
+                        <span class="order-header__title title-text">Санкт-Петербург</span> 
+                    </div>
+                    <div class="order-select__body select-body">
+                        <div class="select-body__option">Москва</div>
+                        <div class="select-body__option option-selected">Санкт-Петербург</div>
+                        <div class="select-body__option">Екатеринбург</div>
+                        <div class="select-body__option">Нижний Новгород</div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Выбирите салон*</div>
+                <div class="order-row__select order-select"> 
+                    <div class="order-select__header order-header">
+                        <input type="text" class="order-header__input" id="order-size-salon" name="order-size-salon" value="" required>
+                        <span class="order-header__title title-text">Всего 3 салона</span> 
+                    </div>
+                    <div class="order-select__body select-body">
+                        <div class="select-body__option">ТРЦ «МЕБЕЛЬ WOOD», ул. Щербакова, д. 4</div>
+                        <div class="select-body__option option-selected">ТРЦ «ГРАНД КАНЬОН», ул. Щербакова, д. 4</div>
+                        <div class="select-body__option">ТРЦ «Мебельный континент», ул. Щербакова, д. 4</div> 
+                    </div>
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Дата встречи</div>
+                <div class="order-row__date order-date">
+                    <div class="order-date__header order-header">
+                        <input type="text" class="order-header__input" id="order-size-date" name="order-size-date" value="" required>
+                        <span class="order-header__date title-date">
+                            30 июля 2022
+                        </span> 
+                    </div> 
+                    <div class="order-date__body order-body">
+                        <div id="calendar-two" class="calendar-wrapper">
+                            <div class="calendar-wrapper__row calendar-row">
+                                <div class="calendar-row__month">Август</div>
+                                <div class="calendar-row__controls">
+                                    <button id="btnPrev2" type="button"></button>
+                                    <button id="btnNext2" type="button"></button>
+                                </div>
+                            </div>
+                            <div id="divCal2"></div>
+                            <div class="calendar-wrapper__controls calendar-controls">
+                                <span class="calendar-controls__clear">Очистить</span>
+                                <div class="calendar-controls__inner calendar-inner">
+                                    <span class="calendar-inner__next">Завтра</span>
+                                    <span class="calendar-inner__aftertomorrow">Послезавтра</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Комментарий</div>
+                <div class="order-row__textarea order-textarea">
+                    <textarea id="order-comment" name="order-comment" class="order-textarea__field" placeholder="Дополнительная информация"></textarea>
+                </div>
+            </div> 
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Ваше имя</div>
+                <div class="order-row__field order-field">
+                    <input type="text" id="order-size-name" name="order-size-name" class="order-field__input" placeholder="Представьтесь, пожалуйста">
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">Телефон</div>
+                <div class="order-row__field order-field">
+                    <input type="text" id="order-size-phone" name="order-size-phone" class="order-field__input" placeholder="Номер телефона">
+                </div>
+            </div>
+            <div class="order-inner__row order-row">
+                <div class="order-row__title">E-mail</div>
+                <div class="order-row__field order-field">
+                    <input type="email" id="order-size-email" name="order-size-email" class="order-field__input" placeholder="Укажите E-mail">
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="order-body__btn order-btn">
+            Заказать замер      
+        </button>
+        <div class="order-body__info">
+            Отправляя форму, Вы принимаете пользовательское соглашение
+        </div>
+    </form>
+</div>
+<div class="pages">
+    <button type="button" class="pages__btn">Список страниц</button>
+    <ul class="list-pages">
+        <li class="list-pages__item">
+            <a href="/" class="list-pages__link">Главная</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/card.html" class="list-pages__link">Карточка матраса</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/catalog-base.html" class="list-pages__link">Кровати</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/catalog.html" class="list-pages__link">Каталог</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/category-content.html" class="list-pages__link">Матрасы</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/category-products.html" class="list-pages__link">Товары для сна</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/category.html" class="list-pages__link">Категории</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/collaction-kitchen.html" class="list-pages__link">Композиция кухонь</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/collaction.html" class="list-pages__link">Коллекция</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/collactions-kitchen.html" class="list-pages__link">Коллекция кухонь</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/composition-kitchens.html" class="list-pages__link">Композиции кухонь</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/composition-product.html" class="list-pages__link">Композиция</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/compositions-list.html" class="list-pages__link">Композиции список</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/discount.html" class="list-pages__link">Акция</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/kitchen-composition.html" class="list-pages__link">Композиция кухни</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/exhibition-sale.html" class="list-pages__link">Распродажа</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/product2.html" class="list-pages__link">Продукт 2</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/sale-product.html" class="list-pages__link">Распродажа 2</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/sale.html" class="list-pages__link">Распродажа выставочных образцов</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/salons.html" class="list-pages__link">Салоны</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/stocks.html" class="list-pages__link">Акции</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/straight-kitchens.html" class="list-pages__link">Прямые кухни</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/type-composition.html" class="list-pages__link">Композиции кухонь 2</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/walls.html" class="list-pages__link">Стенки</a>
+        </li>
+        <li class="list-pages__item">
+            <a href="/shop.html" class="list-pages__link">Шоп</a>
+        </li> 
+    </ul>
+</div>
+
+ 

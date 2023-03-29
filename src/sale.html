@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', { "title": "Распродажа выставочных образцов" })
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Акции</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <span class="breadcrumbs-item__text">Распродажа выставочных образцов</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <h1 class="content__title title-content">Распродажа выставочных образцов</h1>
+                    <div class="content__composition content-composition">
+                        <div class="content-composition__type composition-type">
+                            <a href="#" class="composition-type__img">
+                                <img src="/img/collactions/12.jpg" alt="Для гостиной">
+                            </a>
+                            <a href="#" class="composition-type__title">Для гостиной</a>
+                        </div>
+                        <div class="content-composition__type composition-type">
+                            <a href="#" class="composition-type__img">
+                                <img src="/img/collactions/13.jpg" alt="Для спальни">
+                            </a>
+                            <a href="#" class="composition-type__title">Для спальни</a>
+                        </div>
+                        <div class="content-composition__type composition-type">
+                            <a href="#" class="composition-type__img">
+                                <img src="/img/collactions/14.jpg" alt="Для молодежной">
+                            </a>
+                            <a href="#" class="composition-type__title">Для молодежной</a>
+                        </div>
+                        <div class="content-composition__type composition-type">
+                            <a href="#" class="composition-type__img">
+                                <img src="/img/collactions/15.jpg" alt="Для прихожей">
+                            </a>
+                            <a href="#" class="composition-type__title">Для прихожей</a>
+                        </div>
+                        <div class="content-composition__type composition-type">
+                            <a href="#" class="composition-type__img">
+                                <img src="/img/collactions/16.jpg" alt="Для кухний">
+                            </a>
+                            <a href="#" class="composition-type__title">Для кухни</a>
+                        </div>
+                    </div>
+                    <div class="objects-content__sort objects-sort">
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-room" name="sort-room"
+                                    value="Сортировка">
+                                <span class="sort-title__text">Сортировка</span>
+                                <span class="sort-title__clear" data-default="Сортировка">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Сортировка </li>
+                                <li class="sort-list__item">Сортировка 2</li>
+                                <li class="sort-list__item">Сортировка 3</li>
+                                <li class="sort-list__item">Сортировка 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-city" name="sort-city"
+                                    value="Коллекция">
+                                <span class="sort-title__text">Коллекция</span>
+                                <span class="sort-title__clear" data-default="Коллекция">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Коллекция </li>
+                                <li class="sort-list__item">Коллекция 2</li>
+                                <li class="sort-list__item">Коллекция 3</li>
+                                <li class="sort-list__item">Коллекция 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-price" name="sort-price"
+                                    value="Цена">
+                                <span class="sort-title__text">Цена</span>
+                                <span class="sort-title__clear" data-default="Цена">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Цена</li>
+                                <li class="sort-list__item">Цена 2</li>
+                                <li class="sort-list__item">Цена 3</li>
+                                <li class="sort-list__item">Цена 4</li>
+                            </div>
+                        </div>
+                        <div class="objects-sort__item sort-item">
+                            <div class="sort-item__title sort-title">
+                                <input type="text" class="sort-title__field" id="sort-color" name="sort-color"
+                                    value="Цвет">
+                                <span class="sort-title__text">Цвет</span>
+                                <span class="sort-title__clear" data-default="Цвет">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                    </svg> 
+                                </span>
+                            </div>
+                            <div class="sort-item__list sort-list">
+                                <li class="sort-list__item">Цвет </li>
+                                <li class="sort-list__item">Цвет 2</li>
+                                <li class="sort-list__item">Цвет 3</li>
+                                <li class="sort-list__item">Цвет 4</li>
+                            </div>
+                        </div>
+                        <button type="button" class="objects-sort__btn">Все фильры</button>
+                    </div>
+                    <div class="collactions">
+                        <div class="collactions__box collactions-box">
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a> 
+
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a> 
+
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a> 
+
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                            <a href="" class="collactions-box__item collactions-item">
+                                <span class="collactions-item__discount">-50%</span>
+                                <div class="collactions-item__img">
+                                    <img src="/img/collactions/1.jpg" alt="Композициия кухони BOCA">
+                                </div>
+                                <h4 class="collactions-item__title">Композициия кухони BOCA</h4>
+                                <span class="collactions-item__text">Прямая кухня, 300 см</span>
+                                <div class="collactions-item__price collactions-price">
+                                    <span class="collactions-price__new">17 214 ₽ </span>
+                                    <span class="collactions-price__old">70 466 ₽ </span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collactions__count count-collactions">
+                            Показано <span class="count-collactions__current">12</span> из <span
+                                class="count-collactions__all">155</span>
+                        </div>
+                        <button type="button" class="collactions__loadmore">Показать больше</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    @@include('html/popup.html', {})
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/dinamic-adaptive.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/maskedInput.js"></script> 
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>

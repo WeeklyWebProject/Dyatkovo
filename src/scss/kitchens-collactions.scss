@@ -1,0 +1,138 @@
+.collections {
+
+    // .collections__box
+
+    &__box {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+        margin-bottom: 100px;
+    }
+}
+
+.collections-box {
+
+    // .collections-box__item
+
+    &__item {
+        width: calc((100% / 2) - 32px);
+        margin: 0 16px 40px;
+    }
+}
+
+.collections-item {
+
+    // .collections-item__img
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 356.63px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50%;
+        }
+    }
+
+    // .collections-item__title
+
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        color: #1F1F1F;
+    }
+}
+
+
+.collections {
+
+    // .collections__row
+
+    &__row {
+        margin-bottom: 80px;
+    }
+}
+
+.collections-row {
+
+    // .collections-row__title
+
+    &__title {
+        margin-bottom: 56px;
+    }
+
+    // .collections-row__inner
+
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+    }
+}
+
+
+.collections-inner {
+
+    // .collections-inner__col
+
+    &__col {
+        width: calc((100% / 3) - 32px);
+        margin: 0 16px;
+    }
+}
+
+.collections-col {
+
+    // .collections-col__img
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 274.67px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50%;
+        }
+
+    }
+
+    // .collections-col__title
+
+    &__title {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #1F1F1F;
+        margin-bottom: 8px;
+    }
+
+    // .collections-col__text
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #676767;
+    }
+}

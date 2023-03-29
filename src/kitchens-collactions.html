@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', { "title": "Коллекции кухонь" })
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <span class="breadcrumbs-item__text">Коллекции кухонь</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="collections">
+                <div class="container">
+                    <h1 class="collections-title title-content">Коллекции кухонь</h1>
+                    <div class="collections__box collections-box">
+                        <div class="collections-box__item collections-item">
+                            <a href="#" class="collections-item__img">
+                                <img src="/img/collactions/5.jpg" alt="WOODLINE ОРЕХ">
+                            </a>
+                            <a href="#" class="collections-item__title">WOODLINE ОРЕХ</a>
+                        </div>
+                        <div class="collections-box__item collections-item">
+                            <a href="#" class="collections-item__img">
+                                <img src="/img/collactions/6.jpg" alt="WOODLINE ДУБ">
+                            </a>
+                            <a href="#" class="collections-item__title">WOODLINE ДУБ</a>
+                        </div>
+                        <div class="collections-box__item collections-item">
+                            <a href="#" class="collections-item__img">
+                                <img src="/img/collactions/7.jpg" alt="BAROLO ОРЕХ ПАЦИФИК">
+                            </a>
+                            <a href="#" class="collections-item__title">BAROLO ОРЕХ ПАЦИФИК</a>
+                        </div>
+                        <div class="collections-box__item collections-item">
+                            <a href="#" class="collections-item__img">
+                                <img src="/img/collactions/8.jpg" alt="BAROLO ГРАФИТ">
+                            </a>
+                            <a href="#" class="collections-item__title">BAROLO ГРАФИТ</a>
+                        </div>
+                    </div>
+                    <div class="collections__row collections-row">
+                        <h2 class="collections-row__title title">Вдохновение</h2>
+                        <div class="collections-row__inner collections-inner">
+                            <div class="collections-inner__col collections-col">
+                                <a href="#" class="collections-col__img">
+                                    <img src="/img/collactions/9.jpg" alt="Удобство и комфорт">
+                                </a>
+                                <a href="" class="collections-col__title">Удобство и комфорт</a>
+                                <span class="collections-col__text">Ручки-невидимки: идеи мебельных фасадов с
+                                    интегрированной ручкой</span>
+                            </div>
+                            <div class="collections-inner__col collections-col">
+                                <a href="#" class="collections-col__img">
+                                    <img src="/img/collactions/10.jpg" alt="Идеи и тренды">
+                                </a>
+                                <a href="" class="collections-col__title">Идеи и тренды</a>
+                                <span class="collections-col__text">
+                                    Красота мебельных фасадов
+                                </span>
+                            </div>
+                            <div class="collections-inner__col collections-col">
+                                <a href="#" class="collections-col__img">
+                                    <img src="/img/collactions/11.jpg" alt="Мебель в интерьере">
+                                </a>
+                                <a href="" class="collections-col__title">Мебель в интерьере</a>
+                                <span class="collections-col__text">
+                                    Тренды 2020/2021: какой должна быть гостиная
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    @@include('html/popup.html', {})
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/dinamic-adaptive.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/maskedInput.js"></script> 
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>

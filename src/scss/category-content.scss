@@ -1,0 +1,41 @@
+.category-item {
+
+    // .category-item__text
+
+    &__text {
+        display: inline-flex;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1F1F1F;
+        margin-top: 12px;
+        margin-bottom: 6px;
+    }
+
+    // .category-item__sizes
+
+    &__sizes {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.category-sizes {
+
+    // .category-sizes__item
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px 6px;
+        border-radius: 4px;
+        margin: 0 4px;
+        cursor: pointer;
+
+    }
+
+    .size-selected {
+        background: #F4F5F4;
+    }
+}

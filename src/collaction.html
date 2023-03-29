@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@@include('html/head.html', { "title": "Коллекция" })
+
+<body>
+    <div class="wrapper">
+        @@include('html/header.html', {})
+        <main>
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Коллекции</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <a href="/" class="breadcrumbs-item__link">Коллекции спален</a>
+                    </li>
+                    <li class="breadcrumbs__item breadcrumbs-item">
+                        <span class="breadcrumbs-item__text">Спальня Turin</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="content__slider slider-content slider-content-one swiper-container">
+                        <div class="slider-content__wrap slider-wrap swiper-wrapper">
+                            <div class="slider-wrap__slide slider-slide swiper-slide"
+                                style="background-image: url('/img/banner/1.jpg');"></div>
+                            <div class="slider-wrap__slide slider-slide swiper-slide"
+                                style="background-image: url('/img/banner/1.jpg');"></div>
+                        </div>
+                        <div class="slider-content__prev swiper-button-prev"></div>
+                        <div class="slider-content__next swiper-button-next"></div>
+                    </div>
+                    <div class="content__colors colors-content swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="colors-content__item colors-item swiper-slide">
+                                <div class="colors-item__img">
+                                    <img src="/img/1.svg" alt="TURIN cashemire">
+                                </div>
+                                <div class="colors-item__inner colors-inner">
+                                    <h3 class="colors-inner__title">TURIN cashemire</h3>
+                                    <span class="colors-inner__text">Белый</span>
+                                </div>
+                            </div>
+                            <div class="colors-content__item colors-item swiper-slide">
+                                <div class="colors-item__img">
+                                    <img src="/img/2.svg" alt="TURIN aurum">
+                                </div>
+                                <div class="colors-item__inner colors-inner">
+                                    <h3 class="colors-inner__title">TURIN aurum</h3>
+                                    <span class="colors-inner__text">Белый</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__desc desc-content">
+                        <div class="desc-content__left desc-left">
+                            <h2 class="desc-left__title">Спальня TURIN</h2>
+                            <p class="desc-left__text">
+                                Спальня — это место, где люди проводят наибольшее количество времени. В ней можно и
+                                нужно создавать условия, при которых организм настроится на отдых и получит необходимый
+                                заряд бодрости на следующий день. Удобная кровать, приятная глазу палитра, качественные
+                                отделочные материалы и изящные элементы декора, создающие гармонию и умиротворение — все
+                                это является обязательными атрибутами при планировании места для сна. Зачастую именно в
+                                комнате отдыха необходимо также разместить гардероб и обустроить рабочий уголок.
+                                Создать идеальный интерьер комнаты отдыха поможет ряд приёмов, которые совсем несложно
+                                воплотить в реальность.
+                            </p>
+                            <div class="desc-left__inner desc-inner">
+                                <button type="button" class="desc-inner__btn desc-order">Заказать проект</button>
+                                <button type="button" class="desc-inner__btn desc-registration">Заказать проект</button>
+                            </div>
+                        </div>
+                        <div class="desc-content__right desc-right">
+                            <div class="desc-right__img">
+                                <img src="/img/1.jpg" alt="Дизайнер">
+                            </div>
+                            <span class="desc-right__post">Дизайнер</span>
+                            <h5 class="desc-right__name">Екатерина Павлова</h5>
+                        </div>
+                    </div>
+                    <div class="content__advantages advantages-content">
+                        <h2 class="advantages-content__title title">Дизайн и преимущества</h2>
+                        <div class="advantages-content__row advantages-row">
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/1.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/2.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Разнообразный и богатый опыт сложившаяся структура организации играет
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/3.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Настолько очевидна, что новая модель организационной деятельности требуют
+                                </p>
+                            </div>
+                            <div class="advantages-row__item advantages-item">
+                                <div class="advantages-item__img">
+                                    <img src="/img/advantages/4.jpg" alt="Преимущество">
+                                </div>
+                                <p class="advantages-item__text">
+                                    Значимость этих проблем настолько очевидна, что новая модель организационной
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__matherials matherials-content">
+                    <div class="container">
+                        <h2 class="matherials-content__title title">Материалы</h2>
+                        <div class="matherials-content__controls matherials-controls">
+                            <button type="button" class="matherials-controls__item matherials-active"
+                                data-tab="matherial-tab-1">
+                                Основные текстуры
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-2">
+                                Дополнительные текстуры
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-3">
+                                Корпус
+                            </button>
+                            <button type="button" class="matherials-controls__item" data-tab="matherial-tab-4">
+                                Ручки
+                            </button>
+                        </div>
+                        <div class="matherials-content__inner matherials-inner">
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-1 panel-active">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/3.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/4.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-2">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/3.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-3">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/1.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                            <div class="matherials-inner__panel matherials-panel matherial-tab-4">
+                                <div class="matherials-panel__item matherials-item">
+                                    <div class="matherials-item__img">
+                                        <img src="/img/matherial/2.jpg" alt="Цвет текстуры">
+                                    </div>
+                                    <span class="matherials-item__text">Цвет текстуры</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__row row-content">
+                    <div class="container">
+                        <div class="row-content__header row-header">
+                            <h2 class="row-header__title title">Коллекция TURIN для других комнат</h2>
+                            <a href="#" class="row-header__link">Смотреть все композиции</a>
+                        </div>
+                        <div class="row-content__slider row-slider swiper-slider">
+                            <div class="row-slider__inner row-inner swiper-wrapper">
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/2.jpg" alt="Композиция гостиной BOSTON">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/3.jpg" alt="Композиция гостиной BOSTON">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиция гостиной BOSTON">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/5.jpg" alt="Композиция гостиной BOSTON">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиция гостиной BOSTON">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/4.jpg" alt="Композиция гостиной BOSTON">
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="row-inner__slide row-slide swiper-slide">
+                                    <div class="row-slide__img row-img">
+                                        <img src="/img/5.jpg" alt="Композиция гостиной BOSTON">
+                                        <span class="row-img__discount">-50%</span>
+                                    </div>
+                                    <h5 class="row-slide__title">Композиция гостиной BOSTON</h5>
+                                    <div class="row-slide__text row-text">
+                                        Город: <span>Москва</span>
+                                    </div>
+                                    <div class="row-slide__price row-price">
+                                        <span class="row-price__new">17 214 ₽</span>
+                                        <span class="row-price__old">70 466 ₽</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row-slider__pagination swiper-pagination"></div>
+                        </div>
+                        <div class="row-slider__prev swiper-button-prev"></div>
+                        <div class="row-slider__next swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="content__objects objects-content">
+                    <div class="container">
+                        <div class="objects-content__header objects-header">
+                            <h2 class="objects-header__title title">Предметы коллекции TURIN</h2>
+                            <a href="#" class="objects-header__link">Смотреть все товары TURIN</a>
+                        </div>
+                        <div class="objects-content__sort objects-sort">
+                            <div class="objects-sort__item sort-item">
+                                <div class="sort-item__title sort-title">
+                                    <input type="text" class="sort-title__field" id="sort-room" name="sort-room"
+                                        value="Комната">
+                                    <span class="sort-title__text">Комната</span>
+                                    <span class="sort-title__clear" data-default="Комната">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                        </svg> 
+                                    </span>
+                                </div>
+                                <div class="sort-item__list sort-list">
+                                    <li class="sort-list__item">Комната </li>
+                                    <li class="sort-list__item">Комната 2</li>
+                                    <li class="sort-list__item">Комната 3</li>
+                                    <li class="sort-list__item">Комната 4</li>
+                                </div>
+                            </div>
+                            <div class="objects-sort__item sort-item">
+                                <div class="sort-item__title sort-title">
+                                    <input type="text" class="sort-title__field" id="sort-city" name="sort-city"
+                                        value="Город">
+                                    <span class="sort-title__text">Город</span>
+                                    <span class="sort-title__clear" data-default="Город">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                        </svg> 
+                                    </span>
+                                </div>
+                                <div class="sort-item__list sort-list">
+                                    <li class="sort-list__item">Город </li>
+                                    <li class="sort-list__item">Город 2</li>
+                                    <li class="sort-list__item">Город 3</li>
+                                    <li class="sort-list__item">Город 4</li>
+                                </div>
+                            </div>
+                            <div class="objects-sort__item sort-item">
+                                <div class="sort-item__title sort-title">
+                                    <input type="text" class="sort-title__field" id="sort-price" name="sort-price"
+                                        value="Цена">
+                                    <span class="sort-title__text">Цена</span>
+                                    <span class="sort-title__clear" data-default="Цена">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                        </svg> 
+                                    </span>
+                                </div>
+                                <div class="sort-item__list sort-list">
+                                    <li class="sort-list__item">Цена</li>
+                                    <li class="sort-list__item">Цена 2</li>
+                                    <li class="sort-list__item">Цена 3</li>
+                                    <li class="sort-list__item">Цена 4</li>
+                                </div>
+                            </div>
+                            <div class="objects-sort__item sort-item">
+                                <div class="sort-item__title sort-title">
+                                    <input type="text" class="sort-title__field" id="sort-color" name="sort-color"
+                                        value="Цвет">
+                                    <span class="sort-title__text">Цвет</span>
+                                    <span class="sort-title__clear" data-default="Цвет">
+                                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6.31787 5.65145L8.65131 3.31801L9.31787 3.98457L6.98443 6.31801L9.31787 8.65145L8.65131 9.31801L6.31787 6.98457L3.98443 9.31801L3.31787 8.65145L5.65131 6.31801L3.31787 3.98457L3.98443 3.31801L6.31787 5.65145Z" fill="white"/>
+                                        </svg> 
+                                    </span>
+                                </div>
+                                <div class="sort-item__list sort-list">
+                                    <li class="sort-list__item">Цвет </li>
+                                    <li class="sort-list__item">Цвет 2</li>
+                                    <li class="sort-list__item">Цвет 3</li>
+                                    <li class="sort-list__item">Цвет 4</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects-content__box objects-box">
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist ">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist added">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist added">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist ">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                            <div class="objects-box__item objects-item">
+                                <span class="objects-item__discount">-50%</span>
+                                <a href="#" class="objects-item__wishlist ">
+                                    <svg width="15" height="13" viewBox="0 0 15 13" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.46414 11.1683L6.44779 11.1592L6.40131 11.1332C6.36443 11.1123 6.31579 11.0845 6.25705 11.0501C6.13994 10.9815 5.98065 10.8856 5.79284 10.766C5.42401 10.5312 4.91295 10.1843 4.38421 9.75311C3.8744 9.33734 3.23755 8.75438 2.6992 8.02665C2.199 7.35049 1.4834 6.14596 1.4834 4.55673C1.4834 2.5924 2.96817 1 4.79973 1C6.30783 1 7.58081 2.07962 7.9834 3.55754C8.38599 2.07962 9.65897 1 11.1671 1C12.9986 1 14.4834 2.5924 14.4834 4.55673C14.4834 6.14596 13.7678 7.35049 13.2676 8.02665C12.7293 8.75438 12.0924 9.33734 11.5826 9.75311C11.0539 10.1843 10.5428 10.5312 10.174 10.766C9.98615 10.8856 9.82686 10.9815 9.70974 11.0501C9.65101 11.0845 9.60237 11.1123 9.56548 11.1332L9.51901 11.1592L9.50265 11.1683L9.49107 11.1747L7.9834 12L6.47573 11.1747L6.46414 11.1683Z"
+                                            stroke="#4A4A4A" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="objects-item__img">
+                                    <img src="/img/product/1.png" alt="Навесной шкаф с ящиками LEON LN012.1">
+                                </a>
+                                <a href="#" class="objects-item__title">Навесной шкаф с ящиками LEON LN012.1</a>
+                                <span class="objects-item__size">95х104х35 см</span>
+                                <div class="objects-item__price objects-price">
+                                    <span class="objects-price__new">17 214 ₽</span>
+                                    <span class="objects-price__old">70 466 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="objects-content__loadmore">Загрузить ещё</button>
+                    </div>
+                </div>
+                <div class="content__row row-content">
+                    <div class="container">
+                        <div class="row-content__header row-header">
+                            <h2 class="row-header__title title">Коллекция TURIN для других комнат</h2>
+                        </div>
+                        <div class="row-content__inner row-inner">
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__img">
+                                    <img src="/img/product/2.jpg" alt="Гостиная TURIN">
+                                </div>
+                                <h3 class="inner-item__title">Гостиная TURIN</h3>
+                            </a>
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__discount">-50%</div>
+                                <div class="inner-item__img">
+                                    <img src="/img/product/3.jpg" alt="Молодёжная TURIN">
+                                </div>
+                                <h3 class="inner-item__title">Молодёжная TURIN</h3>
+                            </a>
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__img">
+                                    <img src="/img/product/4.jpg" alt="Прихожая TURIN">
+                                </div>
+                                <h3 class="inner-item__title">Прихожая TURIN</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__row row-content">
+                    <div class="container">
+                        <div class="row-content__header row-header">
+                            <h2 class="row-header__title title">Похожие коллекции</h2>
+                        </div>
+                        <div class="row-content__inner  row-inner inner-slider swiper-container">
+                            <div class="swiper-wrapper">
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/8.jpg" alt="Мебель в интерьере">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ALIVIOе</h3>
+                                </a>
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__discount">-50%</div>
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/10.jpg" alt="Идеи и тренды">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ALTERA</h3>
+                                </a>
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/9.jpg" alt="Удобство и комфорт">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ELEGANTE</h3>
+                                </a>
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/8.jpg" alt="Мебель в интерьере">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ALIVIOе</h3>
+                                </a>
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__discount">-50%</div>
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/10.jpg" alt="Идеи и тренды">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ALTERA</h3>
+                                </a>
+                                <a href="#" class="row-inner__item inner-item swiper-slide">
+                                    <div class="inner-item__img">
+                                        <img src="/img/product/9.jpg" alt="Удобство и комфорт">
+                                    </div>
+                                    <h3 class="inner-item__title">Гостиная ELEGANTE</h3>
+                                </a>
+                            </div>
+                            <div class="row-inner__pagination swiper-pagination"></div>
+                        </div>
+                        <div class="row-content__prev swiper-button-prev"></div>
+                        <div class="row-content__next swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="content__row row-content">
+                    <div class="container">
+                        <div class="row-content__header row-header">
+                            <h2 class="row-header__title title">Идеи для гостиной</h2>
+                        </div>
+                        <div class="row-content__inner row-inner">
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__img">
+                                    <img src="/img/product/7.jpg" alt="Мебель в интерьере">
+                                </div>
+                                <h3 class="inner-item__title">Мебель в интерьере</h3>
+                                <span class="inner-item__text">Тренды 2020/2021: какой должна быть гостиная</span>
+                            </a>
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__discount">-50%</div>
+                                <div class="inner-item__img">
+                                    <img src="/img/product/6.jpg" alt="Идеи и тренды">
+                                </div>
+                                <h3 class="inner-item__title">Идеи и тренды</h3>
+                                <span class="inner-item__text">Красота мебельных фасадов</span>
+                            </a>
+                            <a href="#" class="row-inner__item inner-item">
+                                <div class="inner-item__img">
+                                    <img src="/img/product/5.jpg" alt="Удобство и комфорт">
+                                </div>
+                                <h3 class="inner-item__title">Удобство и комфорт</h3>
+                                <span class="inner-item__text">Ручки-невидимки: идеи мебельных фасадов с интегрированной
+                                    ручкой</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__order order-content">
+                    <div class="container">
+                        <form id="order-project" class="order-content__form form-order">
+                            <h2 class="form-order__title">Заказать проект</h2>
+                            <div class="form-order__inner form-inner">
+                                <input type="text" id="order-name" name="" class="form-inner__field" placeholder="Имя"
+                                    required>
+                                <input type="email" id="order-email" name="" class="form-inner__field"
+                                    placeholder="E-mail" required>
+                                <input type="text" id="order-phone" name="" class="form-inner__field"
+                                    placeholder="Телефон" required>
+                                <input type="text" id="order-city" name="" class="form-inner__field" placeholder="Город"
+                                    required>
+                            </div>
+                            <div class="form-order__inner form-inner">
+                                <label class="form-inner__file form-file">
+                                    <input type="file" name="order-file" id="order-file" class="form-file__field">
+                                    <span class="form-file__text">Прикрепить файл</span>
+                                </label>
+                                <button type="button" class="form-inner__btn">Добавить комментарий</button>
+                            </div>
+                            <div class="form-order__message form-message">
+                                <textarea name="order-message" id="order-message" class="form-message__textarea"
+                                    placeholder="Комментарий"></textarea>
+                            </div>
+                            <button type="submit" class="form-order__btn">Отправить</button>
+
+                            <div class="form-order__bg" style="background-image: url('/img/bg.svg');"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        @@include('html/footer.html', {})
+    </div>
+    @@include('html/popup.html', {})
+    <script src="js/lib/swiper.js"></script>
+    <script src="js/lib/wow.js"></script>
+    <script src="js/lib/dinamic-adaptive.js"></script>
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/maskedInput.js"></script> 
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>
