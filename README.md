@@ -1,1 +1,2 @@
-# Dyatkovo
+# Dyatkovo - верстка интернет-магазина под CMS Bitrix
+Готовы проект в папке /app
